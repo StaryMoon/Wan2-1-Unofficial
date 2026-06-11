@@ -1,0 +1,26 @@
+project:
+  name: "Wan2-1-Unofficial"
+  paper: "Wan: Open and Advanced Large-Scale Video Generative Models"
+  arxiv: "2503.20314"
+  task: "video"
+
+model:
+  hidden_dim: 256
+  num_layers: 4
+  num_heads: 4
+  vocab_size: 32768
+  moe_experts: 4
+
+training:
+  seed: 42
+  batch_size: 8
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  max_steps: 100000
+
+paths:
+  train: data/train
+  val: data/val
+  test: data/test
+  checkpoints: checkpoints
+  outputs: outputs

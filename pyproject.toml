@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wan2-1-unofficial"
+version = "0.1.0"
+description = "Unofficial PyTorch reproduction for Wan: Open and Advanced Large-Scale Video Generative Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Minghao Liu"}]
+dependencies = [
+    "torch>=2.1",
+    "numpy>=1.24",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["wan2_1_unofficial*"]

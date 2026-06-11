@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this unofficial implementation, please cite the original paper."
+title: "Wan2-1-Unofficial"
+authors:
+  - family-names: "Liu"
+    given-names: "Minghao"
+repository-code: "https://github.com/StaryMoon/Wan2-1-Unofficial"
+license: "MIT"
+date-released: "2026-06-11"
+references:
+  - type: article
+    title: "Wan: Open and Advanced Large-Scale Video Generative Models"
+    authors:
+      - name: "Wan Team"
+    year: 2025
+    url: "https://arxiv.org/abs/2503.20314"
